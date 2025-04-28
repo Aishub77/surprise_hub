@@ -1,0 +1,61 @@
+/* Add padding to the container */
+.container {
+    padding: 20px;
+}
+h2{
+   padding-top: 25px;
+   /* font-family: 'oswald'; */
+}
+/* Ensures all cards are equal in height */
+.card {
+    height: 75px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect */
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Image */
+.card-img-top {
+    height: 300px;
+    object-fit:cover;
+}
+
+/* Card Body */
+.card-body {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Card Text */
+.card-text {
+    font-size: 0.9rem;
+    color: #555;
+    margin-right:20px;
+}
+.price-text {
+    color: #d81b60; /* Pink shade */
+    font-weight: bold;
+    padding-left: 10px;
+}
+.gift{
+    display: inline;
+    font-family: 'Quicksand', sans-serif;
+    font-size:28px;
+}
+.link-style {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,94 @@
+.logo {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: black;
+}
+
+.ullist li a {
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.ullist li a:hover {
+  color: #ff66b2;
+}
+
+.navmain {
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  z-index: 999;
+}
+
+.ullist {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.carticon {
+  font-weight: bold;
+  position: absolute;
+  top: -8px;
+  right: -10px;
+  background: red;
+  color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carti {
+  position: relative;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(214, 13, 56);
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  color: rgb(245, 10, 10);
+}
+
+.active-link {
+  color: crimson;
+}
+
+/* Media Queries */
+@media (max-width: 991px) {
+  .ullist {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-left: 10px;
+  }
+
+  .navbar-nav {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  .carticon {
+    top: -6px;
+    right: -8px;
+    font-size: 11px;
+    width: 16px;
+    height: 16px;
+  }
+}

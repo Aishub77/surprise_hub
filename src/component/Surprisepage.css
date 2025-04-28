@@ -1,0 +1,32 @@
+.section {
+    height: 300px;
+    padding:50px 30px 70px 30px;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Lora', serif;
+    letter-spacing: 1.2px; 
+    
+  }
+  
+  .image-half {
+    background-size: cover;
+    background-position: center;
+    height: 150%;
+    width: 40%;
+    border: 0cap;
+    border-radius: 10px;
+    padding-bottom: 50px;
+  }
+  
+  .content-half {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150%;
+  }
+  
+  h2{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #D81B60; 
+  }
